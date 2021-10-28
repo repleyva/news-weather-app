@@ -7,6 +7,6 @@ export const endpoint_weather = (search) => {
 };
 
 export const endpoint_news = (search) => {
-  let url = `https://api.mediastack.com/v1/news?access_key=${API_KEY_NEWS}&keywords=${search}`;
+  let url = `http://api.mediastack.com/v1/news?access_key=${API_KEY_NEWS}&keywords=${search}`;
   return url;
 };
